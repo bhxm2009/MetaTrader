@@ -7,8 +7,8 @@ services:
       EDITION: "Enterprise"  # 企业版更适合轻量化
       USERNAME: "meegooboo"  # 账户名
       PASSWORD: "meegooboo" # 密码
-      RAM_SIZE: "2G"         # 内存减至 8GB（LTSC 最低要求2G）
-      CPU_CORES: "4"         # CPU 核心数
+      RAM_SIZE: "4G"         # 内存减至 8GB（LTSC 最低要求2G）
+      CPU_CORES: "2"         # CPU 核心数
       DISK_SIZE: "32G"       # 磁盘精简至 64GB（LTSC 安装后仅需 12GB）
       DISABLE_VIRTIO: "true" # 禁用虚拟驱动（提升老硬件兼容性）
       SKIP_TPM_CHECK: "true" # 绕过 TPM 检查（减少启动项）
